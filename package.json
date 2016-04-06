@@ -1,13 +1,13 @@
 {
     "name": "alanhohn.mermaid-preview",
     "title": "Mermaid Preview",
-    "version": "0.1.0",
+    "version": "1.0.1",
     "engines": { "brackets": ">=1.0.0" },
     "description": "Preview window for Mermaid diagrams.",
     "keywords": ["mermaid", "uml", "diagrams"],
     "homepage": "https://github.com/alanhohn/mermaid-preview",
     "bugs": "https://github.com/alanhohn/mermaid-preview/issues",
-    "license": "TBD",
+    "license": "MIT",
     "author": {
         "name": "Alan Hohn",
         "email": "alanhohn@gmail.com",
