@@ -1,0 +1,280 @@
+#mermaid-preview-icon {
+    background: url("icon.svg") no-repeat 0 0;
+}
+#mermaid-preview-icon.on {
+    background-position: -24px 0;
+}
+#mermaid-preview {
+    overflow: scroll;
+}
+.alanhohn-mermaid-preview {
+    text-align: center;
+}
+.alanhohn-mermaid-preview .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333333;
+}
+.alanhohn-mermaid-preview .node rect,
+.alanhohn-mermaid-preview .node circle,
+.alanhohn-mermaid-preview .node polygon {
+  fill: #cde498;
+  stroke: #13540c;
+  stroke-width: 1px;
+}
+.alanhohn-mermaid-preview .edgePath .path {
+  stroke: green;
+  stroke-width: 1.5px;
+}
+.alanhohn-mermaid-preview .cluster rect {
+  fill: #cdffb2 !important;
+  rx: 4  !important;
+  stroke: #6eaa49 !important;
+  stroke-width: 1px !important;
+}
+.alanhohn-mermaid-preview .cluster text {
+  fill: #333333;
+}
+.alanhohn-mermaid-preview .actor {
+  stroke: #13540c;
+  fill: #cde498;
+}
+.alanhohn-mermaid-preview text.actor {
+  fill: black;
+  stroke: none;
+}
+.alanhohn-mermaid-preview .actor-line {
+  stroke: grey;
+}
+.alanhohn-mermaid-preview .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: "2 2";
+  marker-end: "url(#arrowhead)";
+  stroke: #333333;
+}
+.alanhohn-mermaid-preview .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: "2 2";
+  stroke: #333333;
+}
+.alanhohn-mermaid-preview #arrowhead {
+  fill: #333333;
+}
+.alanhohn-mermaid-preview #crosshead path {
+  fill: #333333 !important;
+  stroke: #333333 !important;
+}
+.alanhohn-mermaid-preview .messageText {
+  fill: #333333;
+  stroke: none;
+}
+.alanhohn-mermaid-preview .labelBox {
+  stroke: #326932;
+  fill: #cde498;
+}
+.alanhohn-mermaid-preview .labelText {
+  fill: black;
+  stroke: none;
+}
+.alanhohn-mermaid-preview .loopText {
+  fill: black;
+  stroke: none;
+}
+.alanhohn-mermaid-preview .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: "2 2";
+  marker-end: "url(#arrowhead)";
+  stroke: #326932;
+}
+.alanhohn-mermaid-preview .note {
+  stroke: #6eaa49;
+  fill: #fff5ad;
+}
+.alanhohn-mermaid-preview .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px;
+}
+/** Section styling */
+.alanhohn-mermaid-preview .section {
+  stroke: none;
+  opacity: 0.2;
+}
+.alanhohn-mermaid-preview .section0 {
+  fill: #6eaa49;
+}
+.alanhohn-mermaid-preview .section2 {
+  fill: #6eaa49;
+}
+.alanhohn-mermaid-preview .section1,
+.alanhohn-mermaid-preview .section3 {
+  fill: white;
+  opacity: 0.2;
+}
+.alanhohn-mermaid-preview .sectionTitle0 {
+  fill: #333333;
+}
+.alanhohn-mermaid-preview .sectionTitle1 {
+  fill: #333333;
+}
+.alanhohn-mermaid-preview .sectionTitle2 {
+  fill: #333333;
+}
+.alanhohn-mermaid-preview .sectionTitle3 {
+  fill: #333333;
+}
+.alanhohn-mermaid-preview .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+}
+/* Grid and axis */
+.alanhohn-mermaid-preview .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges;
+}
+.alanhohn-mermaid-preview .grid path {
+  stroke-width: 0;
+}
+/* Today line */
+.alanhohn-mermaid-preview .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px;
+}
+/* Task styling */
+/* Default task */
+.alanhohn-mermaid-preview .task {
+  stroke-width: 2;
+}
+.alanhohn-mermaid-preview .taskText {
+  text-anchor: middle;
+  font-size: 11px;
+}
+.alanhohn-mermaid-preview .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px;
+}
+.alanhohn-mermaid-preview .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px;
+}
+/* Specific task settings for the sections*/
+.alanhohn-mermaid-preview .taskText0,
+.alanhohn-mermaid-preview .taskText1,
+.alanhohn-mermaid-preview .taskText2,
+.alanhohn-mermaid-preview .taskText3 {
+  fill: white;
+}
+.alanhohn-mermaid-preview .task0,
+.alanhohn-mermaid-preview .task1,
+.alanhohn-mermaid-preview .task2,
+.alanhohn-mermaid-preview .task3 {
+  fill: #487e3a;
+  stroke: #13540c;
+}
+.alanhohn-mermaid-preview .taskTextOutside0,
+.alanhohn-mermaid-preview .taskTextOutside2 {
+  fill: black;
+}
+.alanhohn-mermaid-preview .taskTextOutside1,
+.alanhohn-mermaid-preview .taskTextOutside3 {
+  fill: black;
+}
+/* Active task */
+.alanhohn-mermaid-preview .active0,
+.alanhohn-mermaid-preview .active1,
+.alanhohn-mermaid-preview .active2,
+.alanhohn-mermaid-preview .active3 {
+  fill: #cde498;
+  stroke: #13540c;
+}
+.alanhohn-mermaid-preview .activeText0,
+.alanhohn-mermaid-preview .activeText1,
+.alanhohn-mermaid-preview .activeText2,
+.alanhohn-mermaid-preview .activeText3 {
+  fill: black !important;
+}
+/* Completed task */
+.alanhohn-mermaid-preview .done0,
+.alanhohn-mermaid-preview .done1,
+.alanhohn-mermaid-preview .done2,
+.alanhohn-mermaid-preview .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2;
+}
+.alanhohn-mermaid-preview .doneText0,
+.alanhohn-mermaid-preview .doneText1,
+.alanhohn-mermaid-preview .doneText2,
+.alanhohn-mermaid-preview .doneText3 {
+  fill: black !important;
+}
+/* Tasks on the critical line */
+.alanhohn-mermaid-preview .crit0,
+.alanhohn-mermaid-preview .crit1,
+.alanhohn-mermaid-preview .crit2,
+.alanhohn-mermaid-preview .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2;
+}
+.alanhohn-mermaid-preview .activeCrit0,
+.alanhohn-mermaid-preview .activeCrit1,
+.alanhohn-mermaid-preview .activeCrit2,
+.alanhohn-mermaid-preview .activeCrit3 {
+  stroke: #ff8888;
+  fill: #cde498;
+  stroke-width: 2;
+}
+.alanhohn-mermaid-preview .doneCrit0,
+.alanhohn-mermaid-preview .doneCrit1,
+.alanhohn-mermaid-preview .doneCrit2,
+.alanhohn-mermaid-preview .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges;
+}
+.alanhohn-mermaid-preview .doneCritText0,
+.alanhohn-mermaid-preview .doneCritText1,
+.alanhohn-mermaid-preview .doneCritText2,
+.alanhohn-mermaid-preview .doneCritText3 {
+  fill: black !important;
+}
+.alanhohn-mermaid-preview .activeCritText0,
+.alanhohn-mermaid-preview .activeCritText1,
+.alanhohn-mermaid-preview .activeCritText2,
+.alanhohn-mermaid-preview .activeCritText3 {
+  fill: black !important;
+}
+.alanhohn-mermaid-preview .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black;
+}
+/*
+
+
+*/
+.alanhohn-mermaid-preview text {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px;
+}
+div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #cdffb2;
+  border: 1px solid #6eaa49;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100;
+}

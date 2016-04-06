@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg width="48" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#bfbfbf" stroke="#000000" x="77.5" y="16" width="12" height="12" id="svg_11"/>
+  <rect stroke="#000000" fill="#bfbfbf" x="2" y="2" width="8" height="8" id="svg_2"/>
+  <line stroke="#000000" fill="none" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="10.18932" y1="6.072815" x2="13.747573" y2="8.650485" id="svg_8"/>
+  <rect id="svg_24" stroke="#000000" fill="#bfbfbf" x="4" y="14" width="8" height="8"/>
+  <rect id="svg_25" stroke="#000000" fill="#bfbfbf" x="14" y="5" width="8" height="8"/>
+  <line stroke="#000000" id="svg_29" fill="none" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="18.150486" y1="13.063107" x2="12.291262" y2="18.067961"/>
+  <line stroke="#000000" id="svg_30" fill="none" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="6.014563" y1="10.053397" x2="7.728156" y2="13.893204"/>
+  <rect id="svg_36" stroke="#000000" fill="#aaffaa" x="26" y="2" width="8" height="8"/>
+  <line id="svg_37" stroke="#000000" fill="none" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="34.18932" y1="6.072815" x2="37.747573" y2="8.650485"/>
+  <rect id="svg_38" stroke="#000000" fill="#aaffaa" x="28" y="14" width="8" height="8"/>
+  <rect id="svg_39" stroke="#000000" fill="#aaffaa" x="38" y="5" width="8" height="8"/>
+  <line id="svg_40" stroke="#000000" fill="none" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="42.150486" y1="13.063107" x2="36.291262" y2="18.067961"/>
+  <line id="svg_41" stroke="#000000" fill="none" stroke-width="null" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="30.014563" y1="10.053397" x2="31.728156" y2="13.893204"/>
+ </g>
+</svg>
