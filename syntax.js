@@ -10,7 +10,7 @@ define(function (require, exports, module) {
     CodeMirror.defineSimpleMode("mermaid", {
         start: [
             {regex: /%%.*/, token: "comment"},
-            {regex: /^\w*(graph|subgraph|sequenceDiagram|participant|Note|loop|end|alt|opt|gantt|title|section|dateFormat|click|classDef|class|TB|LR|default|left of|right of|over)/, token: "keyword"},
+            {regex: /^\w*(graph|subgraph|sequenceDiagram|participant|Note|loop|end|alt|opt|else|gantt|title|section|dateFormat|click|classDef|class|TB|LR|default|left of|right of|over)/, token: "keyword"},
             {regex: /".*"/, token: "string"},
             {regex: /\[.*\]/, token: "string"},
             {regex: /\(.*\)/, token: "string"},
