@@ -96,7 +96,6 @@ define(function (require, exports, module) {
     }
     
     Mermaid.initialize({
-        cloneCssStyles: false,
         startOnLoad: false
     });
     
