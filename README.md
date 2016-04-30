@@ -29,7 +29,6 @@ some work as I have opportunity.
 
 * Save function (SVG / PNG). SVG is easiest since we just have to grab the
   content that is already going into the DOM.
-* Customizable CSS. At the moment the default one is being used. 
 * Support for embedded content. It would be especially nice to be able to
   embed a `mermaid` code block into a Markdown document and have it rendered,
   either in a separate panel or in the excellent [Markdown Preview plugin][mp].

@@ -1,7 +1,7 @@
 {
     "name": "alanhohn.mermaid-preview",
     "title": "Mermaid Preview",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": { "brackets": ">=1.0.0" },
     "description": "Preview window for Mermaid diagrams.",
     "keywords": ["mermaid", "uml", "diagrams"],
